@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: black;
+    color: white;
+}
+
+body {
+    width: auto;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+    background-color: white;
+    border: 1px solid white;
+}
+
+form input {
+    display: flex;
+    margin-top: 2rem;
+    
+}
+
+form button {
+    margin-top: 2rem;
+}
+
+#textContainer {
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-self: center;
+    margin-top: 2rem;
+
+}
